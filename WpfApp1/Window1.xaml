@@ -5,8 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Bindowanie danych" Height="450" Width="800">
+    <StackPanel>
+        <Slider
+            Minimum="12"
+            Maximum="50"
+            Value="{Binding ElementName=wpisanyteksttextbox, Path=Text}"
+            x:Name="RozmiarTekstuSlider"
+            Margin="20"
+            />
+        <TextBlock
+            FontSize="{Binding ElementName=RozmiarTekstuSlider, Path=Value}"
+            Margin="20"
+            x:Name="teksttextBlock">
+            Testowanie wiazania danych
+        </TextBlock>
+        <TextBlock
+            FontSize="12"
+            Foreground="Aqua">
+            Rozmiar tekstu: 
+        </TextBlock>
+        <TextBlock Text="{Binding ElementName=teksttextBlock, Path=FontSize}"></TextBlock>
+        <Label FontSize="20"
+               Background="Aqua"
+               >
+            Podaj nowy rozmiar tekstu
+        </Label>
+        <TextBox
+            x:Name="wpisanyteksttextbox"
+            Margin="20"
+            Padding="10"
+            >
+            
+        </TextBox>
+    </StackPanel>
+    <!-- Bindowanie wiazanie
+    ElementNmae-> x:Nmae z elementu ktorego bierzemy cos
+    Path -> nazwa atrybutu odczytywanego z elementu
+    -->
 </Window>

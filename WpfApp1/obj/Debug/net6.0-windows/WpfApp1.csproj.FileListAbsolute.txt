@@ -21,3 +21,5 @@ C:\Users\programista\Desktop\Wpf_projekty\WpfApp1\WpfApp1\obj\Debug\net6.0-windo
 C:\Users\programista\Desktop\Wpf_projekty\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.pdb
 C:\Users\programista\Desktop\Wpf_projekty\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.genruntimeconfig.cache
 C:\Users\programista\Desktop\Wpf_projekty\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\ref\WpfApp1.dll
+C:\Users\programista\Desktop\Wpf_projekty\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\Window2.g.cs
+C:\Users\programista\Desktop\Wpf_projekty\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\Window2.baml
